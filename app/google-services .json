@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1011045066096",
+    "firebase_url": "https://anxietyhealthplanet-5bc6c.firebaseio.com",
+    "project_id": "anxietyhealthplanet-5bc6c",
+    "storage_bucket": "anxietyhealthplanet-5bc6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011045066096:android:7b93bad9d702009e131bb5",
+        "android_client_info": {
+          "package_name": "com.example.anxietyhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011045066096-0krodvpc19ivsaj1fe7k8of4bi45do4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAATGm625qSIKqJ4GzwycX8u-HQDG2bdC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011045066096-0krodvpc19ivsaj1fe7k8of4bi45do4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

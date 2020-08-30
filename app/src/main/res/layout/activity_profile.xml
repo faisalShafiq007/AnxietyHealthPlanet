@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageregister"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/addimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/registeraddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColor="@color/primarytext"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/registercity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/registercity"
+        app:layout_constraintTop_toBottomOf="@+id/registercity" />
+
+    <EditText
+        android:id="@+id/registerpastexperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="8dp"
+        android:hint="Past Experience share with us"
+        android:inputType="textPersonName"
+        android:textColor="@color/primarytext"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/registeraddress"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/registeraddress"
+        app:layout_constraintTop_toBottomOf="@+id/registeraddress" />
+    <EditText
+        android:id="@+id/registercity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:textColor="@color/primarytext"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/registername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/registername"
+        app:layout_constraintTop_toBottomOf="@+id/registername" />
+    <EditText
+        android:id="@+id/registername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="55dp"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:textColor="@color/primarytext"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageregister"
+        app:layout_constraintStart_toStartOf="@+id/imageregister"
+        app:layout_constraintTop_toBottomOf="@+id/imageregister" />
+
+    <Button
+        android:id="@+id/createprofilebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/CreateProfile"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerpastexperience"
+        app:layout_constraintVertical_bias="0.816" />
+</androidx.constraintlayout.widget.ConstraintLayout>
